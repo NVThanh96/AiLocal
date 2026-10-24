@@ -1,0 +1,25 @@
+# Local AI Agent Workspace - Core Backend Dependencies
+# 100% Permissive Open-Source (MIT / Apache-2.0 / BSD)
+
+# Web API & Server
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic>=2.10.0
+pydantic-settings>=2.0.0
+
+# Asynchronous SQLite Client & Networking
+aiosqlite>=0.20.0
+httpx>=0.28.0
+
+# Hardware & System Metrics
+psutil>=7.0.0
+
+# Testing & Quality Assurance
+pytest>=8.3.0
+pytest-asyncio>=0.24.0
+
+# Multimodal & Document Analysis (Images, Video Metadata, Documents, PDF)
+python-multipart>=0.0.20
+pypdf>=5.0.0
+Pillow>=11.0.0
+

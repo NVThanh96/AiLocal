@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Temporary Test Runs & Debug Sandbox (Auto-deleted after 48h TTL)
+temp_test_runs/*
+!temp_test_runs/.gitkeep
+storage/temp_test_runs/*
+!storage/temp_test_runs/.gitkeep
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# Rust / Tauri
+target/
+src-tauri/target/
+
+# Local databases & storage
+*.sqlite
+*.sqlite3
+*.db
+storage/logs/*
+!storage/logs/.gitkeep
+storage/models/*
+!storage/models/.gitkeep
+
+# Secrets & Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE & OS
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
